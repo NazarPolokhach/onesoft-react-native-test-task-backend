@@ -1,6 +1,8 @@
 
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
+
+const http = require('http');
 
 const data = require('./data.json');
 
@@ -31,5 +33,6 @@ app.get('/barcode/:id', function(req, res) {
     }
 });
 
-app.listen(2020);
+var httpServer = http.createServer(app);
+httpServer.listen(2020);
 console.log('2020 is the magic port');
