@@ -1,6 +1,10 @@
 {
   "name": "barcode-test-task",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
     "barcode-generator": "^0.1.0",
     "canvas": "^2.7.0",
