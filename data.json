@@ -3,5 +3,15 @@
         "name": "Energy bar",
         "price": "10",
         "currency": "UAH"
+    },
+    "482003009286": {
+        "name": "Energy bar with banana",
+        "price": "20",
+        "currency": "UAH"
+    },
+    "482003019286": {
+        "name": "Mac book",
+        "price": "2000",
+        "currency": "USD"
     }
 }

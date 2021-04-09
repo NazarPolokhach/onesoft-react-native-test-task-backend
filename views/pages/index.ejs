@@ -11,7 +11,24 @@
     </h1>
     <div class="jumbotron">
         <p>В вашому додатку ви повинні відсканувати цей код та отримати по ньому дані</p>
-        <img src="/static/barcode.gif" />
+        <div class="tabs">
+            <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+            <label for="tab-btn-1">Штрих код 1</label>
+            <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+            <label for="tab-btn-2">Штрих код  2</label>
+            <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+            <label for="tab-btn-3">Штрих код 3</label>
+        
+            <div id="content-1">
+                <img src="/static/barcode.gif" />
+            </div>
+            <div id="content-2">
+                <img src="/static/barcode_2.gif" />
+            </div>
+            <div id="content-3">
+                <img src="/static/barcode_3.gif" />
+            </div>
+          </div>        
     </div>
 </main>
 
